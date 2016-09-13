@@ -19,7 +19,4 @@ This is example code for setting up a simple string encryption/decryption.
 Use "java SimpleCryp" in the terminal to run the program. The results for the example above are shown.
 
 ##Notes
-Encrypted/Decrypted files are save in the directory the program was executed in.
-
-Still under development.
-* Capital letters are not preserved in encryption/decryption
+Encrypted/Decrypted files are saved in the directory the program was executed in.
