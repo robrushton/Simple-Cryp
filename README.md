@@ -1,7 +1,7 @@
 #Simple Cryp
 
 ##Description
-SimpleCryp is a transpotion cipher. It replaces each character in a string with another based off a specified offset (default or can be set). It can be used to encrypt/decrypt strings or entire text files.
+SimpleCryp is a transposition cipher. It replaces each character in a string with another based off a specified offset (default or can be set). It can be used to encrypt/decrypt strings or entire text files.
 
 ##Instructions
 **This program requires a Java JRE/JDK.**
