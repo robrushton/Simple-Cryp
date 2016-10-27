@@ -13,7 +13,7 @@ public class SimpleCryp {
         System.out.println("After Decryption: " + decrypted);
     }
     
-    private final static String chars = "abcdefghijklmnopqrstuvwxyz1234567890?!.,`~@#$%^&*()-_+=[]{}|:;\"'<> ";
+    private final static String chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!.,`~@#$%^&*()-_+=[]{}|:;\"'<> ";
     private final static Map<Character, Character> encryptMap = new HashMap<Character, Character>();
     private final static Map<Character, Character> decryptMap = new HashMap<Character, Character>();
     private static int offset = 10;
@@ -48,7 +48,7 @@ public class SimpleCryp {
     }
     
     public static String encrypt(String s) {
-        char[] encryptString = s.toLowerCase().toCharArray();
+        char[] encryptString = s.toCharArray();
         StringBuilder sb = new StringBuilder();
         for(char c : encryptString) {
 	    sb.append(encryptMap.get(c));
