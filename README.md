@@ -10,7 +10,7 @@ SimpleCryp is a transposition cipher. It replaces each character in a string wit
 
 Use the terminal to compile the source file.
 
-![alt text](http://i.imgur.com/oZz70xS.jpg "Example Code")
+![alt text](http://i.imgur.com/oXRCjH7.png "Example Code")
 
 This is example code for setting up a simple string encryption/decryption.
 
